@@ -510,4 +510,6 @@ external setWeekYearOptf: (Js.Date.t, float, weekYearOptions) => Js.Date.t = "da
 @module
 external startOfWeekYearOpt: (Js.Date.t, weekYearOptions) => Js.Date.t = "date-fns/startOfWeekYear"
 
-@module("date-fns/locale") external br: locale = "ptBR"
+module Locale = {
+  @module("date-fns/locale") external ptBR: locale = "ptBR"
+}
